@@ -8,22 +8,22 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class DemoController {
 
-	@ResponseBody
-	@RequestMapping("/")
+//	@ResponseBody
+	@RequestMapping("/z")
 	public String home() {
 		System.out.println("nice");
-		return "hi";
+		return "hell";
 	}
 	
 	@RequestMapping("/hello.do")
 	public String hello(Model model) {
 		model.addAttribute("dasdw","ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ");
-		return "hello";
+		return "th/hello";
 	}
 	
-	@RequestMapping("/hi.do")
+	@RequestMapping("/hi2.do")
 	public String fasd(Model model) {
 		model.addAttribute("zzxczx","ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ");
-		return "hi";
+		return "hi2";
 	}
 }

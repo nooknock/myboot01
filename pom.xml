@@ -52,8 +52,8 @@
 		</dependency>
 
 		<!--jsp를 사용하려면 반드시 타임리프라이브러리 비활성화 해야 됨 -->
-		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-thymeleaf</artifactId> 
-			</dependency> -->
+		 <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-thymeleaf</artifactId> 
+			</dependency> 
 
 		<!-- 스프링부트에서는 jsp가 기본 웹페이지가 아니므로 jstl과 jasper 반드시 추가해줘야 함 -->
 

@@ -55,7 +55,7 @@ public class BoardController {
 			board.setCnt(0);
 			boardList.add(board);
 		}
-		
+		System.out.println("성공");
 
 		return boardList;
 	}
