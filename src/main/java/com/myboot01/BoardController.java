@@ -21,7 +21,7 @@ public class BoardController {
 	
 	@GetMapping("/hi") //기존의 @RequestMapping(value="/hi", method = RequestMethod.GET) 이거랑 동일한 설정
 	public String hello(String id) {
-		return "Hi : "+id;
+		return "Hi : 안녕 <br> lightsail 배포 연습입니다";
 	}
 	
 	@GetMapping("/getBoard")
